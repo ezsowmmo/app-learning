@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>bKash Limited</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/sowmmo_style.css">
+    <script src="https://kit.fontawesome.com/525f9347e5.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/fav.png">
+    <script src="assets/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/webview_bridge.js"></script>
+    <script type="text/javascript" src="assets/sowmmo.js"></script>
+    
+    
+    <meta name="theme-color" content="#E2136E">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="assets/thumb.png">
+</head>
+    
+<body>
+
+<div class="container">
+<div class="jumbotron" style="box-shadow:1px 2px 6px #00000024;background-color: white;border-radius: 5px;">
+<div class="row" >
+    <div class="col-sm-12">
+        <p style="font-weight: 400;font-size: 18px;padding-top: 4%;padding-left: 2%"><a href="index.html" class="b_link">বিকাশকে জানুন</a> <i class="fa fa-chevron-right" aria-hidden="true"></i> বিকাশ চার্জ হিসাব করুন</p>
+        <hr style="  border: 2px solid #f7f7f7;width: 102%;margin-left: -1.5%;">
+        <p style="color: #464646;font-size: 15px;float: left;">চার্জ হিসাবের জন্য সেবা নির্বাচন করুন </p>
+        <img  id="service_icon" src="" style="float: right;">
+        <select id="mySelect" onchange="myFunction()" class="form-control">
+          <option value="free">ক্যাশ ইন</option>
+          <option value="snd_dial">সেন্ড মানি (*২৪৭#)</option>
+          <option value="snd_dial">সেন্ড মানি (অ্যাপ)</option>
+          <option value="c_agnt">এজেন্ট থেকে ক্যাশ আউট</option>
+          <option value="c_agnt_next">অ্যাপ দিয়ে এজেন্ট থেকে ক্যাশ আউট</option>
+          <option value="c_atm">এটিএম থেকে ক্যাশ আউট</option>
+          <option value="payment">পেমেন্ট (মার্চেন্ট)</option>
+          <option value="balance">চেক ব্যালেন্স</option>
+          <option value="statement">স্টেটমেন্ট অনুরোধ করা</option>
+          <option value="pin">মোবাইল মেন্যু পিন পরিবর্তন</option>
+          <option value="remittance">আন্তর্জাতিক রেমিটেন্স গ্রহণ</option>
+          <option value="mobile_recharge">মোবাইল রিচার্জ</option>
+          <option value="add_money">ব্যাংক থেকে বিকাশ</option>
+          <option value="add_money">কার্ড থেকে বিকাশ</option>
+          <option value="b2b">ট্রান্সফার মানি (বিকাশ থেকে ব্যাংক)</option>
+          <option value="ekyc">একাউন্ট খুলুন</option>
+            </select>
+        <br>
+    </div>
+  
+    
+    <div class="col-sm-12" style="text-align: center;">
+        <div class="col-sm-12" style=": ;">
+        <h6 id="b_charge_text" style="display:none;">বিকাশ চার্জ : </h6>
+        <h4 id="b_charge" class="bKash_color" style="display:none;">100</h4>
+        </div> 
+
+ 
+    <div style="display: none!important;">
+        <h6 id="charge_text" class="bKash_color" style="display: none;!important">ইনপুট করতে হবে </h6>
+         <h4 id="charge" class="bKash_color" style="display:none!important;"></h4>
+    </div>   
+
+
+
+    <p id="no_charge" class="bKash_color" style="display:none">কোনো চার্জ প্রযোজ্য নয় (ফ্রি)</p>
+        <center>
+            <img src="assets/free.svg" id="free_img" style="display: none;text-align: center;width: 30%;"></center>
+    </div>
+
+    <div class="col-sm-12" id="input_div" style="display:none;">
+     <input type="number" name="qwe12z" class="form-control" id="input" placeholder="টাকার পরিমাণ দিন" autocomplete="off" style="text-align: center;">
+        </div>
+    
+    <div class="col-sm-12">
+        <br>
+    <p id="charge_notice" style="display:none;font-size:17px;font-weight: 400;text-align: center;"></p>
+    </div>
+ 
+</div>
+</div>
+</div>   
+   
+    <button type="button" class="btn btn_act" onclick="window.webViewJSBridge.goBackHome('Tickets')" >বিকাশ অ্যাপ হোম এ ফিরে যাই<img src="assets/arrow.svg" style="float: right;margin-top: 1%"> </button> 
+    
+    <script src="charges.js">
+    </script>
+
+ 
+</body>
+</html>

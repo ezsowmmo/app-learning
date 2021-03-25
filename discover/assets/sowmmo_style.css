@@ -1,0 +1,206 @@
+ 
+@media (min-width:1025px) {
+  
+   .cent{
+        text-align: center!important;
+    }
+ 
+ 
+.jumbotron {
+    width: 40%;
+    margin-left: 30%!important;
+}
+}
+ 
+
+/* all screens*/
+.footer__ButtonsWrapper-sc-1bn1rrm-6.dANLpz {
+    display: none!important;
+}
+.dot {
+  margin-left: 5%;
+  height: 15px;
+  width: 15px;
+  background-color: #e2136e;
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid white;
+  box-shadow:2px 2px 5px #00000045;
+}
+.not_match{
+    display: none;
+    text-align: center;
+    color: red;
+    padding-top: 3%;
+}
+.list-group-item{
+        padding: 1px 1px;
+        border: none;
+        line-height: 25px;
+        text-align: center;
+    
+}
+.youtube-thumb
+    {
+    position: relative;
+  	text-align: center;
+  
+    }
+    .fa-youtube
+    {
+    position: absolute;
+  	top: 50%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    zoom: .8;
+    color: red!important;
+    }
+.force_img{
+  margin-top: 2%;
+    display: block!important;
+    /* width: 45px; */
+    height: 40px;
+    padding-left: 1%;
+    
+}
+.force_thumb{
+    display: block!important;
+    
+}
+.force_hide{
+    display: none!important;
+    
+}
+hr{
+    border-top: 1px solid #fff0;
+}
+
+@keyframes sTransition{
+  0%{
+    background-position:0%;
+  }
+  
+  100%{
+    background-position:400%;
+  }
+}
+body{
+    background-color: #f7f7f7;
+}
+.b_link{
+    color: #e2136e;
+}
+.big_border{
+    border: 4px solid #f7f7f7;
+    padding: 3% 0 3% 0%;
+    border-style: solid none;
+} 
+.border_btm{
+    border-bottom: 2px solid #f7f7f7;
+    padding-bottom: 3%;
+}
+.service_list img {
+    margin-top: -1%;
+    margin-left: 5%;
+}
+.navbar.center .navbar-inner {
+    background-color: #e2136e;
+    border:2px #e2136e;
+    text-align: center;
+}
+.navbar{
+    border-radius: 0px;
+}
+.navbar.center .navbar-inner .nav {
+    
+    float: none;
+    color: white;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+
+/*change here for card*/
+.container{
+    padding: 0;
+}
+.modal {
+  position:fixed;
+  margin-top: 5%!important;
+  margin-right: 0%; 
+ /*delete this if need to change container card*/
+}
+.container .jumbotron{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+.jumbotron {
+    padding-bottom: 1%;
+    padding-top: 1%!important;
+}
+
+
+
+
+
+ 
+.content_text{
+    
+    padding-left: 20%;
+    font-weight: 400!important;
+    color: #464646;
+    font-size: 17px!important;
+}
+ 
+.btn_act {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    font-size: 18px;
+    border-radius: 0px;
+    margin-top: 2%;
+    color: white!important;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    background-color: #e2136e;
+    border-color: #e2136e;
+ 
+}
+
+
+table.table.table-bordered {
+    margin-top: -4%;
+    border: 5px solid white!important;
+}
+ 
+.btn_act:hover{
+    background-color: #e2136e;
+}
+
+
+.cent{
+    text-align: center;
+}
+ 
+.far,.fas, .fa{
+    color: #e2136e;
+   
+}
+ 
+ 
+.bKash_color{
+    color:#e2136e!important;
+}
+.form-control[disabled] {
+    border-color: #969696;
+    background-color: white;
+    color: #969696;
+ 
+}
+ 
+
+

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95.192" height="33.396" viewBox="0 0 95.192 33.396">
+  <g id="addmoney_transfermoney" transform="translate(-3271.158 7735.69)">
+    <g id="Add_Money" data-name="Add Money" transform="translate(3271.885 -7735.393)">
+      <path id="Path_5001" data-name="Path 5001" d="M51.6,14.5H17.173A2.172,2.172,0,0,0,15,16.673V43.211a1.322,1.322,0,0,0,1.373,1.373H50.231A1.322,1.322,0,0,0,51.6,43.211v-6.52H48.515a5.033,5.033,0,1,1,0-10.066H51.6V18.16a1.391,1.391,0,0,0-1.373-1.373H17.516a1.03,1.03,0,0,1,0-1.258H51.375A1.322,1.322,0,0,1,52.747,16.9v10.18L51.6,28.112H48.4a3.66,3.66,0,1,0,0,7.321l3.2-.229,1.144-.686v7.549a.865.865,0,0,1-.114.458,2.214,2.214,0,0,0,1.144-1.945V16.788A2.2,2.2,0,0,0,51.6,14.5" transform="translate(-9.395 -14.5)" fill="#8a4094"/>
+      <path id="Path_5002" data-name="Path 5002" d="M46.489,29.945A1.945,1.945,0,1,1,44.545,28a1.928,1.928,0,0,1,1.945,1.945" transform="translate(-5.424 -12.558)" fill="#dfcce4"/>
+      <path id="Path_5003" data-name="Path 5003" d="M17.814,43.094h0L17.7,17.814a.112.112,0,0,1,.114-.114H49.843a.112.112,0,0,1,.114.114v7.321H48.012a6.291,6.291,0,1,0,0,12.582h1.945v5.376a.112.112,0,0,1-.114.114H17.814Z" transform="translate(-9.007 -14.04)" fill="#dfcce4"/>
+      <path id="Path_5004" data-name="Path 5004" d="M28.859,35.78a9.38,9.38,0,1,1-9.38-9.38,9.422,9.422,0,0,1,9.38,9.38" transform="translate(-10.1 -12.788)" fill="#dfcce4"/>
+      <path id="Path_5005" data-name="Path 5005" d="M28.859,35.78a9.38,9.38,0,1,1-9.38-9.38A9.422,9.422,0,0,1,28.859,35.78Z" transform="translate(-10.1 -12.788)" fill="none" stroke="#8a4094" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.453"/>
+      <path id="Path_5006" data-name="Path 5006" d="M24.882,34.419H20.307V29.844a1.144,1.144,0,0,0-2.288,0v4.575H13.444a1.144,1.144,0,1,0,0,2.288h4.575v4.575a1.144,1.144,0,0,0,2.288,0V36.707h4.575a1.144,1.144,0,1,0,0-2.288" transform="translate(-9.784 -12.457)" fill="#8a4094"/>
+    </g>
+    <g id="_01_transfer_money" data-name="01_transfer money" transform="translate(3169.903 -7923.854)">
+      <path id="Path_11200" data-name="Path 11200" d="M182.045,200.2a12.912,12.912,0,1,0,12.911,12.912A12.927,12.927,0,0,0,182.045,200.2Z" transform="translate(-10.529 -10.524)" fill="#f4dcde"/>
+      <g id="Group_4853" data-name="Group 4853" transform="translate(157.097 188.163)">
+        <g id="Group_4852" data-name="Group 4852" transform="translate(0 0)">
+          <g id="Group_4850" data-name="Group 4850">
+            <g id="Group_4848" data-name="Group 4848">
+              <path id="Path_11201" data-name="Path 11201" d="M171.516,217a14.42,14.42,0,1,1,14.42-14.42A14.436,14.436,0,0,1,171.516,217Zm0-27.332a12.912,12.912,0,1,0,12.911,12.912A12.927,12.927,0,0,0,171.516,189.671Z" transform="translate(-157.097 -188.163)" fill="#d76a92"/>
+            </g>
+            <g id="Group_4849" data-name="Group 4849" transform="translate(8.621 6.642)">
+              <path id="Path_11202" data-name="Path 11202" d="M235.823,247.621,234.5,248.78a2.639,2.639,0,0,1,1.49,2.318,3.847,3.847,0,0,1-3.806,3.808c-.994,0-1.822-.995-1.822-2.483v-3.311h1.985v-1.654h-1.985v-2.814c0-2.318-1.49-3.476-2.482-3.476l-.828,1.157a2.165,2.165,0,0,1,1.491,2.318v2.814h-2.649v1.654h2.649v3.311a3.863,3.863,0,0,0,3.641,3.973,5.369,5.369,0,0,0,5.3-5.465,3.24,3.24,0,0,0-1.655-3.309" transform="translate(-225.892 -241.167)" fill="#d76a92"/>
+            </g>
+          </g>
+          <g id="Group_4851" data-name="Group 4851" transform="translate(27.521 6.257)">
+            <path id="Path_11203" data-name="Path 11203" d="M376.72,240.7h3.445v-2.607l8.385,8.265-8.385,8.061v-2.675H376.72Z" transform="translate(-376.72 -238.094)" fill="#d76a92"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
